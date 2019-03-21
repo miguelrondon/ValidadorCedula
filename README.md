@@ -1,4 +1,4 @@
-# ValidadorCedula
+# Validador Cédula Dominicana
 
 CedulaValidator Verifica si una cédula de identidad de Republica Dominicana es válida.
 
