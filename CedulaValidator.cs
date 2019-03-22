@@ -16,6 +16,10 @@ namespace WindowsFormsApplication1
         {
            
             string input = cedula.Replace("-", "");
+            
+             if(input.Length != 11) 
+                return false;
+            
             int lastDigit = Convert.ToInt32(input.Substring(10,1));
             int digit = computeCheckDigit(multiplyCheckFactorByEachDigitAndGetSummation(input));
 
